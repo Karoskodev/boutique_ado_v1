@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-#4xnyo@$46c#0c^l$4n6yax8$h2#(#ul8m6i10*%i1pvkb2bxm
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-karoskodev-boutiqueadov-i4uvcwm5mtc.ws-eu106.gitpod.io']
+ALLOWED_HOSTS = ['8000-karoskodev-boutiqueadov-i4uvcwm5mtc.ws-eu107.gitpod.io']
 
 
 # Application definition
@@ -78,6 +78,8 @@ TEMPLATES = [
         },
     },
 ]
+
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
 AUTHENTICATION_BACKENDS = (
     
